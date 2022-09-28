@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+body {
+    width: 720px;
+    margin: auto;
+}
+
+.insta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.insta .instaId {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.insta .instaIcon button{
+    font-size: 32px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #fff;
+    font-size: 28px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 160px;
+    border-radius: 50%;
+}
+
+.logo button {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo .name {
+    margin: 0 auto;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.occupation {
+    color: gray;
+    font-size: 12px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu .iconList {
+    border-bottom: 2px solid black;
+    width: 240px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.menu .iconVideo {
+    width: 240px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.menu .iconTag {
+    width: 240px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.profile {
+    font-size: 20px;
+}
+
+.profileLogo {
+    display: flex;
+    align-items: center;
+}
+
+.profileLogoIcon img {
+    margin-top: 8px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.articleContents {
+    margin-bottom: 80px;
+}
+
+.profileLogoName {
+    margin-left: 8px;
+}
+
+.profileLogoName .location {
+    font-size: 16px;
+    color: gray;
+}
+
+.articleContents img {
+    width: 100%;
+}
+
+.articleContents .like {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+}
+
+.articleContents p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.articleContents .likeClick {
+    color: red;
+}
+
+.articleContents .like button {
+    padding: 0;
+    margin-right: 16px;
+}
+.articleContents .tag {
+    color: blue;
+}
+
+footer {
+    margin-top: 160px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
